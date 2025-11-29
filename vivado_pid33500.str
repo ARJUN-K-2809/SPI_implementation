@@ -1,0 +1,88 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 33500
+
+Current time: 	11/29/25 6:51:25 PM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	E:/Vivado/2016.4/tps/win64/jre
+
+User name: 	Arjun
+User home directory: C:/Users/Arjun
+User working directory: C:/Users/Arjun/Dual_MCP3313
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI base root directory: E:/Vivado
+RDI data directory: E:/Vivado/2016.4/data
+RDI bin directory: E:/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Arjun/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Arjun/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	240 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 505 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 34 MB (+33101kb) [00:00:04]
+// [Engine Memory]: 429 MB (+298191kb) [00:00:04]
+// Opening Vivado Project: C:\Users\Arjun\Dual_MCP3313\Dual_MCP3313.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 40 MB (+4906kb) [00:00:08]
+// [Engine Memory]: 521 MB (+73824kb) [00:00:08]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 534 MB. GUI used memory: 29 MB. Current time: 11/29/25 6:51:28 PM IST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 44 MB (+1416kb) [00:00:11]
+// [Engine Memory]: 571 MB (+25385kb) [00:00:11]
+// [Engine Memory]: 632 MB (+33538kb) [00:00:11]
+// [GUI Memory]: 47 MB (+662kb) [00:00:12]
+// [GUI Memory]: 52 MB (+3363kb) [00:00:12]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: open_project C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.4/data/ip'. 
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 57 MB (+2843kb) [00:00:13]
+// Project name: Dual_MCP3313; location: C:/Users/Arjun/Dual_MCP3313; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 966.680 ; gain = 235.219 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+closeMainWindow("Dual_MCP3313 - [C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.xpr] - Vivado 2016.4"); // cd:JFrame
+// TclEventType: DG_UPDATE_GRAPH
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'
+// TclEventType: DG_UPDATE_GRAPH

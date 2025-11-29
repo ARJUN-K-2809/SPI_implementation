@@ -1,0 +1,9 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.srcs/sim_1/new/Dual_MCP3313TB.v,1764388297,verilog,,,,tb_Dual_ADC,,,,,,,,
+C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.srcs/sources_1/new/Dual_MCP3313.v,1764389364,verilog,,,,Dual_MCP3313,,,,,,,,
+C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.srcs/sources_1/new/SPI_Master_With_Single_CS.v,1764388583,verilog,,,,SPI_Master_With_Single_CS,,,,,,,,
+C:/Users/Arjun/SPI_MCP3313/SPI_MCP3313.srcs/sources_1/new/SPI_Master.v,1761194597,verilog,,,,SPI_Master,,,,,,,,
