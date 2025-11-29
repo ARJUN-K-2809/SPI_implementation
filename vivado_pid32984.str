@@ -1,0 +1,111 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 32984
+
+Current time: 	11/29/25 10:58:58 PM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	E:/Vivado/2016.4/tps/win64/jre
+
+User name: 	Arjun
+User home directory: C:/Users/Arjun
+User working directory: C:/Users/Arjun/Dual_MCP3313
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI base root directory: E:/Vivado
+RDI data directory: E:/Vivado/2016.4/data
+RDI bin directory: E:/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Arjun/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Arjun/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	233 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 500 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 33 MB (+32542kb) [00:00:06]
+// [Engine Memory]: 442 MB (+311896kb) [00:00:06]
+// Opening Vivado Project: C:\Users\Arjun\Dual_MCP3313\Dual_MCP3313.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 41 MB (+5840kb) [00:00:08]
+// [Engine Memory]: 489 MB (+26575kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 532 MB. GUI used memory: 29 MB. Current time: 11/29/25 10:59:00 PM IST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 547 MB (+35142kb) [00:00:13]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 621 MB (+48390kb) [00:00:14]
+// [GUI Memory]: 50 MB (+7118kb) [00:00:15]
+// [GUI Memory]: 52 MB (+445kb) [00:00:16]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: open_project C:/Users/Arjun/Dual_MCP3313/Dual_MCP3313.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.4/data/ip'. 
+// TclEventType: DG_GRAPH_STALE
+// Project name: Dual_MCP3313; location: C:/Users/Arjun/Dual_MCP3313; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 922.523 ; gain = 197.953 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 58 MB (+2879kb) [00:00:19]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 63 MB (+2069kb) [00:02:11]
+// Elapsed time: 113 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ILA_wrapper (ILA_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v)]", 4); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v)]", 5); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v), SPI_Primary - SPI_Master_With_Single_CS (SPI_Master_With_Single_CS.v)]", 6); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v), SPI_Primary - SPI_Master_With_Single_CS (SPI_Master_With_Single_CS.v), SPI_Master_Inst - SPI_Master (SPI_Master.v)]", 7, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v), SPI_Primary - SPI_Master_With_Single_CS (SPI_Master_With_Single_CS.v), SPI_Master_Inst - SPI_Master (SPI_Master.v)]", 7, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [Engine Memory]: 652 MB (+437kb) [00:02:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 655 MB. GUI used memory: 41 MB. Current time: 11/29/25 11:01:10 PM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v), SPI_Primary - SPI_Master_With_Single_CS (SPI_Master_With_Single_CS.v), SPI_Master_Inst - SPI_Master (SPI_Master.v)]", 7, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_ADC_System (Top_ADC_System.v), Driver_Inst - Dual_MCP3313 (Dual_MCP3313.v), SPI_Primary - SPI_Master_With_Single_CS (SPI_Master_With_Single_CS.v), SPI_Master_Inst - SPI_Master (SPI_Master.v)]", 7, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+// [GUI Memory]: 68 MB (+1931kb) [00:02:28]
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source Node Properties..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// [GUI Memory]: 73 MB (+1637kb) [00:02:40]
