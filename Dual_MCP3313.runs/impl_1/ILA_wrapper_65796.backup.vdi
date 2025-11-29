@@ -1,0 +1,842 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Nov 30 04:38:52 2025
+# Process ID         : 65796
+# Current directory  : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1
+# Command line       : vivado -log ILA_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ILA_wrapper.tcl -notrace
+# Log file           : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/ILA_wrapper.vdi
+# Journal file       : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/vivado.jou
+# Running On         : logan-ROG-Strix-G513IE-G513IE
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 4800H with Radeon Graphics
+# CPU Frequency      : 4292.730 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16152 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20447 MB
+# Available Virtual  : 13059 MB
+#-----------------------------------------------------------
+source ILA_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/logan/LOGAN_DISK/FPGA/Vivado/2024.2/data/ip'.
+Command: link_design -top ILA_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-454] Reading design checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_Dual_MCP3313_0_0/ILA_Dual_MCP3313_0_0.dcp' for cell 'ILA_i/Dual_MCP3313_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_ila_0_0/ILA_ila_0_0.dcp' for cell 'ILA_i/ila_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_processing_system7_0_0/ILA_processing_system7_0_0.dcp' for cell 'ILA_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1557.328 ; gain = 0.000 ; free physical = 3682 ; free virtual = 11984
+INFO: [Netlist 29-17] Analyzing 441 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA_i/ila_0/inst'
+Finished Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA_i/ila_0/inst'
+Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_processing_system7_0_0/ILA_processing_system7_0_0.xdc] for cell 'ILA_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_processing_system7_0_0/ILA_processing_system7_0_0.xdc] for cell 'ILA_i/processing_system7_0/inst'
+Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[15]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[14]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[13]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[12]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[11]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[10]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[9]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[8]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[7]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[6]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[5]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[4]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[3]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[2]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[1]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC1_Data[0]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[15]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[14]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[13]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[12]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[11]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[10]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[9]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[8]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[7]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[6]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[5]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[4]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[3]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[2]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[1]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_ADC2_Data[0]'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Rst_L'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Start_Conversion'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_Busy'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_Data_Valid'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Rst_L'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Start_Conversion'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_Busy'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_Data_Valid'. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_ila_0_0/ILA_ila_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.srcs/sources_1/bd/ILA/ip/ILA_processing_system7_0_0/ILA_processing_system7_0_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1819.512 ; gain = 0.000 ; free physical = 3531 ; free virtual = 11833
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 228 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 196 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 32 instances
+
+15 Infos, 40 Warnings, 40 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1819.512 ; gain = 425.645 ; free physical = 3531 ; free virtual = 11833
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.52 . Memory (MB): peak = 1939.691 ; gain = 120.180 ; free physical = 3425 ; free virtual = 11727
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1d75ffa9e
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2349.645 ; gain = 409.953 ; free physical = 3054 ; free virtual = 11370
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+
+Phase 1.1.1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2717.230 ; gain = 0.000 ; free physical = 2669 ; free virtual = 11008
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "wr_clk_period": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:12]
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "skew_value": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "skew_value": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "rd_clk_period_2": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'get_property' expects at least one object. [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "skew_value_2": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:33]
+CRITICAL WARNING: [Common 17-1548] Command failed: can't read "skew_value_2": no such variable
+ [/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/.Xil/Vivado-65796-logan-ROG-Strix-G513IE-G513IE/dbg_hub_CV.0/out/xsdbm_cc_late_late.xdc:36]
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2717.230 ; gain = 0.000 ; free physical = 2672 ; free virtual = 11011
+Phase 1.1.1 Generate And Synthesize Debug Cores | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2672 ; free virtual = 11011
+Phase 1.1 Core Generation And Design Setup | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2682 ; free virtual = 11020
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2682 ; free virtual = 11020
+Phase 1 Initialization | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2681 ; free virtual = 11020
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2680 ; free virtual = 11019
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2681 ; free virtual = 11020
+Phase 2 Timer Update And Timing Data Collection | Checksum: 2193940f7
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2681 ; free virtual = 11020
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 1 inverters resulting in an inversion of 4 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell ILA_i/ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell ILA_i/ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell ILA_i/ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell ILA_i/ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1ae572687
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2680 ; free virtual = 11019
+Retarget | Checksum: 1ae572687
+INFO: [Opt 31-389] Phase Retarget created 6 cells and removed 135 cells
+INFO: [Opt 31-1021] In phase Retarget, 49 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1ae572687
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:26 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2680 ; free virtual = 11019
+Constant propagation | Checksum: 1ae572687
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 47 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2717.230 ; gain = 0.000 ; free physical = 2679 ; free virtual = 11018
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2717.230 ; gain = 0.000 ; free physical = 2680 ; free virtual = 11019
+Phase 5 Sweep | Checksum: 1c74e6e89
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:27 . Memory (MB): peak = 2717.230 ; gain = 23.781 ; free physical = 2681 ; free virtual = 11020
+Sweep | Checksum: 1c74e6e89
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 89 cells
+INFO: [Opt 31-1021] In phase Sweep, 609 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG i_Clk_IBUF_BUFG_inst to drive 3927 load(s) on clock net i_Clk_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 15e0f7cc8
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2680 ; free virtual = 11019
+BUFG optimization | Checksum: 15e0f7cc8
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 15e0f7cc8
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2681 ; free virtual = 11020
+Shift Register Optimization | Checksum: 15e0f7cc8
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Shift Register Optimization, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 2357012a6
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2681 ; free virtual = 11020
+Post Processing Netlist | Checksum: 2357012a6
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 55 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 20e6eec72
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2679 ; free virtual = 11018
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2749.246 ; gain = 0.000 ; free physical = 2681 ; free virtual = 11020
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 20e6eec72
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2681 ; free virtual = 11020
+Phase 9 Finalization | Checksum: 20e6eec72
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2681 ; free virtual = 11020
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               6  |             135  |                                             49  |
+|  Constant propagation         |               0  |               0  |                                             47  |
+|  Sweep                        |               1  |              89  |                                            609  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              2  |
+|  Post Processing Netlist      |               0  |               0  |                                             55  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 20e6eec72
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 2749.246 ; gain = 55.797 ; free physical = 2681 ; free virtual = 11020
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 4 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 4 newly gated: 0 Total Ports: 8
+Ending PowerOpt Patch Enables Task | Checksum: 2a341c8f0
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2539 ; free virtual = 10882
+Ending Power Optimization Task | Checksum: 2a341c8f0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2991.113 ; gain = 241.867 ; free physical = 2539 ; free virtual = 10882
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 2a341c8f0
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2539 ; free virtual = 10882
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10882
+Ending Netlist Obfuscation Task | Checksum: 231099cc7
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10882
+INFO: [Common 17-83] Releasing license: Implementation
+62 Infos, 42 Warnings, 50 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:37 . Memory (MB): peak = 2991.113 ; gain = 1171.602 ; free physical = 2538 ; free virtual = 10882
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10883
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10883
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10883
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10883
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10883
+Wrote Device Cache: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10884
+Write Physdb Complete: Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2538 ; free virtual = 10884
+INFO: [Common 17-1381] The checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/ILA_wrapper_opt.dcp' has been generated.
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2494 ; free virtual = 10841
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1cf116417
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2494 ; free virtual = 10841
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2493 ; free virtual = 10841
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13bb59953
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.62 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2488 ; free virtual = 10841
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 210668758
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2494 ; free virtual = 10848
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 210668758
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2495 ; free virtual = 10849
+Phase 1 Placer Initialization | Checksum: 210668758
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2495 ; free virtual = 10849
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 234dc46f7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2513 ; free virtual = 10868
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1b81c14e7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2517 ; free virtual = 10872
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1b81c14e7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2517 ; free virtual = 10872
+
+Phase 2.4 Global Place Phase1
+Phase 2.4 Global Place Phase1 | Checksum: 1ab5cdb5e
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2514 ; free virtual = 10870
+
+Phase 2.5 Global Place Phase2
+
+Phase 2.5.1 UpdateTiming Before Physical Synthesis
+Phase 2.5.1 UpdateTiming Before Physical Synthesis | Checksum: 1ab5cdb5e
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2512 ; free virtual = 10867
+
+Phase 2.5.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 166 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 68 nets or LUTs. Breaked 0 LUT, combined 68 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2511 ; free virtual = 10869
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |             68  |                    68  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |             68  |                    68  |           0  |           4  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.5.2 Physical Synthesis In Placer | Checksum: 16c5005d0
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2510 ; free virtual = 10868
+Phase 2.5 Global Place Phase2 | Checksum: 23060d876
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2503 ; free virtual = 10861
+Phase 2 Global Placement | Checksum: 23060d876
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2503 ; free virtual = 10861
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 221fc7e8e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2503 ; free virtual = 10861
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1b884ac9f
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2502 ; free virtual = 10861
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 267b22ed7
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2502 ; free virtual = 10861
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 229a01597
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2502 ; free virtual = 10861
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 1a9a6130b
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2518 ; free virtual = 10878
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 210ed7d05
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2520 ; free virtual = 10879
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1cb175bc5
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2519 ; free virtual = 10879
+Phase 3 Detail Placement | Checksum: 1cb175bc5
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2520 ; free virtual = 10879
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 22194658b
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=27.270 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 19a3233e4
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2517 ; free virtual = 10877
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 248e9a933
+
+Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2517 ; free virtual = 10877
+Phase 4.1.1.1 BUFG Insertion | Checksum: 22194658b
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2516 ; free virtual = 10876
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=27.270. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 24df45098
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2511 ; free virtual = 10871
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2511 ; free virtual = 10870
+Phase 4.1 Post Commit Optimization | Checksum: 24df45098
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2510 ; free virtual = 10869
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 24df45098
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2510 ; free virtual = 10869
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 24df45098
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10867
+Phase 4.3 Placer Reporting | Checksum: 24df45098
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2509 ; free virtual = 10868
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10868
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10868
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 154105887
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10868
+Ending Placer Task | Checksum: ed0d7872
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10868
+94 Infos, 42 Warnings, 50 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2508 ; free virtual = 10868
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2500 ; free virtual = 10861
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2484 ; free virtual = 10852
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2484 ; free virtual = 10852
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2484 ; free virtual = 10852
+Wrote Netlist Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2483 ; free virtual = 10851
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2483 ; free virtual = 10852
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.4 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2483 ; free virtual = 10852
+INFO: [Common 17-1381] The checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/ILA_wrapper_placed.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 7fc2132c ConstDB: 0 ShapeSum: 3b30e1b RouteDB: 6998572b
+Post Restoration Checksum: NetGraph: 7babdd26 | NumContArr: e090be73 | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 2e18e90d3
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2423 ; free virtual = 10787
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 2e18e90d3
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2423 ; free virtual = 10787
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 2e18e90d3
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2423 ; free virtual = 10788
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 329e403f9
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2406 ; free virtual = 10771
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=27.416 | TNS=0.000  | WHS=-0.154 | THS=-21.870|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 5544
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 5544
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 2e284ef49
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2411 ; free virtual = 10776
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 2e284ef49
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2411 ; free virtual = 10776
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 275f18de6
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2412 ; free virtual = 10778
+Phase 4 Initial Routing | Checksum: 275f18de6
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2412 ; free virtual = 10778
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 264
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=25.714 | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Global Iteration 0 | Checksum: 28db335fc
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10793
+
+Phase 5.2 Global Iteration 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=25.714 | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.2 Global Iteration 1 | Checksum: 1c2c73765
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10793
+Phase 5 Rip-up And Reroute | Checksum: 1c2c73765
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10793
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+Phase 6.1 Delay CleanUp | Checksum: 1c2c73765
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10793
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 1c2c73765
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10794
+Phase 6 Delay and Skew Optimization | Checksum: 1c2c73765
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2428 ; free virtual = 10794
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=25.714 | TNS=0.000  | WHS=0.050  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 24ef7a2f8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10793
+Phase 7 Post Hold Fix | Checksum: 24ef7a2f8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10793
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.23733 %
+  Global Horizontal Routing Utilization  = 2.92831 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 24ef7a2f8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 24ef7a2f8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 26355db8b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10793
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 26355db8b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+
+Phase 12 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=25.714 | TNS=0.000  | WHS=0.050  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 12 Post Router Timing | Checksum: 26355db8b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+Total Elapsed time in route_design: 12.17 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: c919c464
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: c919c464
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+106 Infos, 42 Warnings, 50 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2427 ; free virtual = 10792
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2425 ; free virtual = 10792
+Wrote PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2404 ; free virtual = 10777
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2404 ; free virtual = 10777
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2404 ; free virtual = 10779
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2403 ; free virtual = 10779
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2402 ; free virtual = 10779
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.44 . Memory (MB): peak = 2991.113 ; gain = 0.000 ; free physical = 2402 ; free virtual = 10779
+INFO: [Common 17-1381] The checkpoint '/home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/ILA_wrapper_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 30 04:41:10 2025...

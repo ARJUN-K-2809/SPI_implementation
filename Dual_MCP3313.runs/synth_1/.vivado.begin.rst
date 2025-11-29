@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Arjun" Host="ARJUNS-VIVOBOOK" Pid="36492">
+    <Process Command="vivado" Owner="logan" Host="logan-ROG-Strix-G513IE-G513IE" Pid="65263" HostCore="16" HostMemory="15774412">
     </Process>
 </ProcessHandle>

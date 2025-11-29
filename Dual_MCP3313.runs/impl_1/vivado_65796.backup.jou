@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Nov 30 04:38:52 2025
+# Process ID         : 65796
+# Current directory  : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1
+# Command line       : vivado -log ILA_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ILA_wrapper.tcl -notrace
+# Log file           : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/ILA_wrapper.vdi
+# Journal file       : /home/logan/tempvivad/arjun/SPI_implementation/Dual_MCP3313.runs/impl_1/vivado.jou
+# Running On         : logan-ROG-Strix-G513IE-G513IE
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 4800H with Radeon Graphics
+# CPU Frequency      : 4292.730 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16152 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20447 MB
+# Available Virtual  : 13059 MB
+#-----------------------------------------------------------
+source ILA_wrapper.tcl -notrace

@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "/media/logan/LOGAN_DISK/FPGA/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/814a/hdl/verilog" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/1017/hdl/verilog" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/52c0/hdl/verilog" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/2276/hdl/verilog" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/ec67/hdl" --include "../../../../Dual_MCP3313.srcs/sources_1/bd/ILA/ipshared/86fe/hdl" \
+"../../../bd/ILA/ip/ILA_ila_0_0/sim/ILA_ila_0_0.v" \
+"../../../bd/ILA/ip/ILA_processing_system7_0_0/sim/ILA_processing_system7_0_0.v" \
+"../../../bd/ILA/ip/ILA_Dual_MCP3313_0_0/sim/ILA_Dual_MCP3313_0_0.v" \
+"../../../bd/ILA/ip/ILA_xlconstant_0_1/sim/ILA_xlconstant_0_1.v" \
+"../../../bd/ILA/sim/ILA.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
